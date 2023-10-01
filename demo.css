@@ -1,0 +1,33 @@
+/* body{
+    background-image: url('image1.jpg');
+    background-size: cover; /* or contain, or a specific size value */
+    /* background-repeat: no-repeat; or repeat-x, repeat-y, or repeat */
+    /* background-position: center center; or specific values like top left, bottom right, etc. */
+/* }*/ 
+
+body {
+    background-image: url("image1.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .heading{
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 44%;
+    margin-top: 100px;
+
+  }
+  
+  .text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
