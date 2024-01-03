@@ -171,3 +171,28 @@ h3 {
 .v-none {
   visibility: hidden;
 }
+
+.heading{
+  color: #fff;
+  
+}
+
+@media (max-width: 1111px){
+#booker-grid-holder {
+  display: flex;
+  flex-direction: column;
+}
+
+#book-ticket-btn{
+ margin-left: 70px;
+}
+
+#customer-detail-form {
+  margin-top: -90;
+  margin-left: 40px;
+}
+
+.success{
+  margin-left: 40px;
+}
+}
